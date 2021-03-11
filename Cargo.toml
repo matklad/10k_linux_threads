@@ -1,0 +1,8 @@
+[package]
+name = "ten-thousand-threads"
+version = "0.1.0"
+authors = ["Aleksey Kladov <aleksey.kladov@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+core_affinity = "0.5"
