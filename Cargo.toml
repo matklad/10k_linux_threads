@@ -1,8 +1,12 @@
 [package]
-name = "ten-thousand-threads"
+name = "affinity"
 version = "0.1.0"
 authors = ["Aleksey Kladov <aleksey.kladov@gmail.com>"]
 edition = "2018"
 
+[[bin]]
+name = "main"
+path = "main-affinity.rs"
+
 [dependencies]
-core_affinity = "0.5"
+core_affinity = "=0.5.10"

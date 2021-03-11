@@ -18,4 +18,11 @@ real 10.32s
 user 2.99s
 sys  11.29s
 rss  95380k
+
+14:26:29|~/tmp/manythreads|master⚡?
+λ go build main.go && t ./main
+real 10.70s
+user 13.26s
+sys  0.47s
+rss  34496k
 ```
